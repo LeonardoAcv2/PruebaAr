@@ -267,7 +267,8 @@
         "paddingTop": 20,
         "paddingBottom": 20,
         "paddingLeft": 10,
-        "paddingRight": 10
+        "paddingRight": 10,
+        "gap": 20
       },
       "name": "Marco",
       "order": 9.214888013878948
@@ -334,14 +335,24 @@
       "geometry": null,
       "material": null,
       "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
-      "components": {},
+      "components": {
+        "1433ad5a-44ed-4c01-8f40-725fb4d89e85": {
+          "id": "1433ad5a-44ed-4c01-8f40-725fb4d89e85",
+          "name": "responsive-font-size",
+          "parameters": {
+            "minSize": 18,
+            "widthPercent": 100,
+            "maxSize": 15
+          }
+        }
+      },
       "ui": {
         "flexDirection": "row",
         "width": "100%",
         "height": "70%",
-        "text": "Holaaaa esto es una prueba para el Ar",
+        "text": "Holaaaa esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, ",
         "color": "#ffffff",
-        "fontSize": 24,
+        "fontSize": 18,
         "type": "3d",
         "verticalTextAlign": "start",
         "textAlign": "center",
