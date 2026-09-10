@@ -112,12 +112,21 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "9ce6c430-7d3d-4798-8acb-c3214ed40285": {
+          "id": "9ce6c430-7d3d-4798-8acb-c3214ed40285",
+          "name": "persist-on-lost",
+          "parameters": {
+            "imageTargetName": "Idayvuelta"
+          }
+        }
+      },
       "name": "Ida",
       "imageTarget": {
         "name": "Idayvuelta"
       },
-      "order": 3.062369225156311
+      "order": 3.062369225156311,
+      "hidden": true
     },
     "9c3aa2e2-652d-4204-8673-cd3fc88fd632": {
       "id": "9c3aa2e2-652d-4204-8673-cd3fc88fd632",
@@ -173,12 +182,21 @@
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
+      "components": {
+        "8635cecb-b54e-45d2-a673-df9500a37348": {
+          "id": "8635cecb-b54e-45d2-a673-df9500a37348",
+          "name": "persist-on-lost",
+          "parameters": {
+            "imageTargetName": "Estudio"
+          }
+        }
+      },
       "name": "Vuelta",
       "imageTarget": {
         "name": "Estudio"
       },
-      "order": 5.022349029865851
+      "order": 5.022349029865851,
+      "hidden": true
     },
     "50905335-ea4a-4887-93a4-f5f90932fa83": {
       "id": "50905335-ea4a-4887-93a4-f5f90932fa83",
@@ -210,13 +228,147 @@
       "components": {},
       "name": "Idayvueltaesfera",
       "order": 1.5038349333841596
+    },
+    "3f43c807-fa04-4cf3-865b-b87e96fb770e": {
+      "id": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "ui": {
+        "width": "100%",
+        "height": "100%",
+        "type": "overlay",
+        "background": "#000000",
+        "backgroundOpacity": 0.6899999999999997,
+        "maxHeight": "",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "flexDirection": "column",
+        "opacity": 1,
+        "backgroundSize": "contain",
+        "flexWrap": "nowrap",
+        "paddingTop": 20,
+        "paddingBottom": 20,
+        "paddingLeft": 10,
+        "paddingRight": 10
+      },
+      "name": "Marco",
+      "order": 9.214888013878948
+    },
+    "20e49fed-86a2-4f2c-905d-b60653d3cb8c": {
+      "id": "20e49fed-86a2-4f2c-905d-b60653d3cb8c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": "100%",
+        "height": "30%",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Idayvuelta.jpeg"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "alignItems": "center",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "flexDirection": "column",
+        "gap": 0
+      },
+      "name": "Imagen",
+      "order": 8.93066422190353
+    },
+    "c3ff03e5-c8b7-44e9-ae93-0dacec44aec8": {
+      "id": "c3ff03e5-c8b7-44e9-ae93-0dacec44aec8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
+      "components": {},
+      "ui": {
+        "flexDirection": "row",
+        "width": "100%",
+        "height": "70%",
+        "text": "Holaaaa esto es una prueba para el Ar",
+        "color": "#ffffff",
+        "fontSize": 24,
+        "type": "3d",
+        "verticalTextAlign": "start",
+        "textAlign": "center",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "justifyContent": "center",
+        "alignItems": "center",
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "name": "Texto",
+      "order": 10.064598283891497
     }
   },
   "spaces": {
     "88453035-dc0f-486d-868a-8ff7c2fda864": {
       "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "name": "Default Space",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "sky": {
+        "type": "gradient",
+        "style": "linear",
+        "colors": [
+          "#464766",
+          "#0F0E1A"
+        ]
+      }
     }
   },
   "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
