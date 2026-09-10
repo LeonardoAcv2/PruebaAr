@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 3,
+    "width": 2076,
+    "height": 2769,
+    "isRotated": true,
+    "originalWidth": 2083,
+    "originalHeight": 2769
+  },
+  "imagePath": "image-targets/Estudio_luminance.jpg",
+  "metadata": null,
+  "name": "Estudio",
+  "resources": {
+    "originalImage": "Estudio_original.jpg",
+    "croppedImage": "Estudio_cropped.jpg",
+    "thumbnailImage": "Estudio_thumbnail.jpg",
+    "luminanceImage": "Estudio_luminance.jpg"
+  },
+  "created": 1789022447188,
+  "updated": 1789022447188
+}

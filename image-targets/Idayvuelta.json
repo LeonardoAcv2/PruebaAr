@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 40,
+    "width": 1200,
+    "height": 1600,
+    "isRotated": false,
+    "originalWidth": 1280,
+    "originalHeight": 1600
+  },
+  "imagePath": "image-targets/Idayvuelta_luminance.jpg",
+  "metadata": null,
+  "name": "Idayvuelta",
+  "resources": {
+    "originalImage": "Idayvuelta_original.jpg",
+    "croppedImage": "Idayvuelta_cropped.jpg",
+    "thumbnailImage": "Idayvuelta_thumbnail.jpg",
+    "luminanceImage": "Idayvuelta_luminance.jpg"
+  },
+  "created": 1789022419066,
+  "updated": 1789022419066
+}
