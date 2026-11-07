@@ -126,7 +126,7 @@
         "name": "Idayvuelta"
       },
       "order": 3.062369225156311,
-      "hidden": true
+      "hidden": false
     },
     "9c3aa2e2-652d-4204-8673-cd3fc88fd632": {
       "id": "9c3aa2e2-652d-4204-8673-cd3fc88fd632",
@@ -159,7 +159,13 @@
       "parentId": "4629cba8-6eda-43b1-93b1-f7da6d91baba",
       "components": {},
       "name": "Idayvueltacaja",
-      "order": 1.0619636152283376
+      "order": 1.0619636152283376,
+      "hidden": true,
+      "disabled": true,
+      "videoControls": {
+        "loop": true,
+        "speed": 0.5
+      }
     },
     "cfdf4be4-4385-4d84-97bf-87d11e50341b": {
       "id": "cfdf4be4-4385-4d84-97bf-87d11e50341b",
@@ -196,13 +202,13 @@
         "name": "Estudio"
       },
       "order": 5.022349029865851,
-      "hidden": true
+      "hidden": false
     },
     "50905335-ea4a-4887-93a4-f5f90932fa83": {
       "id": "50905335-ea4a-4887-93a4-f5f90932fa83",
       "position": [
         0,
-        0,
+        -0.07578716632700386,
         0.43537383311825617
       ],
       "rotation": [
@@ -212,9 +218,9 @@
         1
       ],
       "scale": [
-        0.5000000000000001,
-        0.5000000000000001,
-        0.5000000000000001
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004
       ],
       "geometry": {
         "type": "sphere",
@@ -227,100 +233,15 @@
       "parentId": "cfdf4be4-4385-4d84-97bf-87d11e50341b",
       "components": {},
       "name": "Idayvueltaesfera",
-      "order": 1.5038349333841596
-    },
-    "3f43c807-fa04-4cf3-865b-b87e96fb770e": {
-      "id": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "ui": {
-        "width": "100%",
-        "height": "100%",
-        "type": "overlay",
-        "background": "#000000",
-        "backgroundOpacity": 0.6899999999999997,
-        "maxHeight": "",
-        "alignItems": "center",
-        "justifyContent": "flex-start",
-        "flexDirection": "column",
-        "opacity": 1,
-        "backgroundSize": "contain",
-        "flexWrap": "nowrap",
-        "paddingTop": 20,
-        "paddingBottom": 20,
-        "paddingLeft": 10,
-        "paddingRight": 10,
-        "gap": 20
-      },
-      "name": "Marco",
-      "order": 9.214888013878948
-    },
-    "20e49fed-86a2-4f2c-905d-b60653d3cb8c": {
-      "id": "20e49fed-86a2-4f2c-905d-b60653d3cb8c",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
-      "components": {},
-      "ui": {
-        "type": "overlay",
-        "width": "100%",
-        "height": "30%",
-        "image": {
-          "type": "asset",
-          "asset": "assets/Idayvuelta.jpeg"
-        },
-        "backgroundOpacity": 1,
-        "backgroundSize": "contain",
-        "alignItems": "center",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "flexDirection": "column",
-        "gap": 0
-      },
-      "name": "Imagen",
-      "order": 9.514368739824048,
+      "order": 1.5038349333841596,
       "hidden": false
     },
-    "c3ff03e5-c8b7-44e9-ae93-0dacec44aec8": {
-      "id": "c3ff03e5-c8b7-44e9-ae93-0dacec44aec8",
+    "e13fc2f4-8b4c-4a18-870a-74dc36a22a39": {
+      "id": "e13fc2f4-8b4c-4a18-870a-74dc36a22a39",
       "position": [
         0,
-        0,
-        0
+        0.3282103146900739,
+        0.9400081556723379
       ],
       "rotation": [
         0,
@@ -333,74 +254,26 @@
         1,
         1
       ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
-      "components": {
-        "1433ad5a-44ed-4c01-8f40-725fb4d89e85": {
-          "id": "1433ad5a-44ed-4c01-8f40-725fb4d89e85",
-          "name": "responsive-font-size",
-          "parameters": {
-            "minSize": 18,
-            "widthPercent": 6,
-            "maxSize": 60
-          }
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/BURGOS.mp4"
         }
       },
-      "ui": {
-        "flexDirection": "row",
-        "width": "100%",
-        "height": "70%",
-        "text": "Holaaaa esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, esto es una prueba para el Ar, ",
-        "color": "#ffffff",
-        "fontSize": 29,
-        "type": "overlay",
-        "verticalTextAlign": "start",
-        "textAlign": "center",
-        "paddingLeft": 0,
-        "paddingRight": 0,
-        "justifyContent": "center",
-        "alignItems": "center",
-        "paddingTop": 0,
-        "paddingBottom": 0
-      },
-      "name": "Texto",
-      "order": 12.400446549827999,
-      "hidden": true
-    },
-    "315082c2-1a19-41ee-a273-d0c4f1dfc6f2": {
-      "id": "315082c2-1a19-41ee-a273-d0c4f1dfc6f2",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "3f43c807-fa04-4cf3-865b-b87e96fb770e",
-      "components": {
-        "aee97690-0b50-46eb-9734-e731623c073b": {
-          "id": "aee97690-0b50-46eb-9734-e731623c073b",
-          "name": "scrollable-info-text",
-          "parameters": {
-            "imageTargetName": "Idayvuelta",
-            "text": "Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, Esto es una prueba ar, "
-          }
-        }
-      },
-      "name": "Objeto vacío",
-      "order": 10.630395778701825
+      "parentId": "4629cba8-6eda-43b1-93b1-f7da6d91baba",
+      "components": {},
+      "name": "Plano",
+      "order": -1.9248485552313965,
+      "videoControls": {
+        "loop": true
+      }
     }
   },
   "spaces": {
